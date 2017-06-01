@@ -6,6 +6,7 @@ Person bobby = new Person();
 //System.out.println(bobby.getSalary());
 
 //Education colleges = new Education();
+
 System.out.println(bobby.toString());
 
 }
