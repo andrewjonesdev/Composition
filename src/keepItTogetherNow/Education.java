@@ -35,7 +35,7 @@ public String getEd(int count){
 
 public String toString(){
 	String listString = "";
-	for(int count = 0; count <priorSchools.size(); count++){
+	for(int count = 0; (count<priorSchools.size() && count<10); count++){
 		if(count!=(priorSchools.size()-1))
 		{
 			listString += (priorSchools.get(count) + ", ");
