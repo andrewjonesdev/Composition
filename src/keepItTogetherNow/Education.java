@@ -38,7 +38,7 @@ public String toString(){
 	for(int count = 0; count <priorSchools.size(); count++){
 		if(count!=(priorSchools.size()-1))
 		{
-			listString += (priorSchools.get(count) + " ");
+			listString += (priorSchools.get(count) + ", ");
 		}
 		else{
 			listString += priorSchools.get(count);
